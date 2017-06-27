@@ -40,7 +40,7 @@ function checkIdm(myidm) {
     var id0, tst4 = id0 = 'http://ads2.williamhill.com/redirect.aspx?pid=191318604&bid=1487415335&lpid=1487414832';
     var tst10 =  'http://www.bet365.com/home/?affiliate=365_550128';
  
- 
+alert(id0); 
 if  (myCk.indexOf("username") >= 0) { // begin check username
 if  (myCk.indexOf("TST1") >= 0) { 
      var idt0 = 40000;
